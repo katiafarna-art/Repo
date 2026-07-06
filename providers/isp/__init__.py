@@ -1,1 +1,0 @@
-ISP_AMBIENTE_LOCAL_ENV_VALUE: str = "vm_sandbox"
