@@ -1,0 +1,39 @@
+vlm_entity_prompt:
+  system:
+    content:
+      type: text
+      en:
+        text: "{system_message}"
+        ocr: "{ocr_instructions}"
+      it:
+        text: "{system_message}"
+        ocr: "{ocr_instructions}"
+  user:
+    content:
+      type: text
+      en:
+        text_ocr: "<context>Context: {context}</context> \n"
+        text: "user input: {input}"
+
+      it:
+        text_ocr: "<context>Contesto: {context}</context> \n"
+        text: "Input utente: {input}"
+
+
+llm_entity_prompt:
+  system:
+    content:
+      type: text
+      en:
+        text: "{system_message}"
+      it:
+        text: "{system_message}"
+  user:
+    content:
+      type: text
+      en:
+        text_ocr: "<context>Contesto: {context}</context> \n"
+        text: "Input utente: {input}"
+      it:
+        text_ocr: "<context>Contesto: {context}</context> \n"
+        text: "Input utente: {input}"

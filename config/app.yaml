@@ -1,0 +1,13 @@
+application:
+  name: "coolpkg"
+
+description: |
+  This is a Python package skeleton.
+  Coolpkg API helps you do awesome stuff. 🚀
+
+short_description: |
+  Coolpkg API helps you do awesome stuff. 🚀
+
+tags_metadata:
+  - name: "Internal"
+    description: "Reserved APIs"
